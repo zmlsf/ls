@@ -1,0 +1,363 @@
+/*初始化样式*/
+*{
+	
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.header{
+	position: fixed;
+	width: 100%;
+	left: 0;
+	top:0;
+	
+}
+.headerAd{
+	background: #444;
+	height: 40px;
+	
+	
+}
+.headerAd .Adcontent{
+	width: 796px;
+	height: 40px;
+	margin: 0 auto;
+	color: #a8a8aa;
+	font-size: 12px;
+	text-align: right;
+	line-height: 40px;	
+	
+}
+.nav{
+	height: 44px;
+	background: rgba(45,45,45,0.98);
+	
+}
+
+.nav .navcontent{
+	
+	width: 1000px;
+	margin: 0 auto;
+	
+	
+}
+.nav .navcontent a{
+	text-align: center;
+	display: inline-block;
+	color: #fff;
+	width: 111px;
+	height: 44px;
+	font-size:12px;
+    line-height: 44px;
+	float: left;
+	text-decoration: none;
+	
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+} 
+.nav .navcontent .logo{
+	background-image: url(../img/logo.svg);
+	background-repeat:no-repeat;
+	background-position: center;	
+}
+
+.nav .navcontent .search{
+	background-image: url(../img/search.svg);
+	background-repeat:no-repeat;
+	background-position: center;
+
+}
+.nav .navcontent .buyCar{
+	background-image: url(../img/buycar.svg);
+	background-repeat:no-repeat;
+	background-position: center;
+
+}
+.b1{
+	margin-top:84px ;
+}
+.content{
+	
+	text-align: center;
+	background-color: #fafafa;
+	font-family: "SF Pro SC","SF Pro Display","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;
+	padding: 48px 20px;	
+}
+.content h1{
+	font-size: 30px;
+	padding: 10px 0;
+	
+	
+	
+}
+.content p{
+	font-size: 20px;
+    line-height: 30px;
+    font-weight: 400px;
+   	
+}
+.content a{
+	font-size: 19px;
+	color:#0070c9;
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px;
+}
+.b2{
+	margin-top:20px ;
+	background-image: url(../img/iphone_xr.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 569px;
+	
+}
+.b3{
+	margin-top: 20px;
+	background-image:url(../img/iphone_xs.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height:569px;
+	
+}
+.b4{
+	margin-top: 20px;
+	background-image: url(../img/wacth.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	height: 569px; 	
+}
+.adList{
+	margin-top:5px;
+	
+	
+}
+.adList .content{	
+	width: 50%;
+	height: 569px;
+	font-family:"SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif ;
+	color: #fff;
+	float: left;
+	background-color: #fafafa;
+	
+}
+.adList .content h1{
+	padding: 0;
+}
+.content p{
+	font-size: 20px;
+	font-weight: 400px;	
+	
+}
+
+.a1{
+	
+	background-image: url(../img/robot.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	
+	border-top: 12px solid #fff;
+	border-bottom: 12px solid #fff;
+	border-right: 6px solid #fff;
+	border-left: 12px solid #fff;
+	
+
+}
+.a1 a{
+	font-size: 17px;
+	color: #fff;
+}
+.a2{
+
+	background-image: url(../img/apple_music.jpg);	
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 100% 100%;
+	border-top: 12px solid #fff;
+	border-bottom: 12px solid #fff;
+	border-right: 12px solid #fff;
+	border-left: 6px solid #fff;
+		
+}
+.a2 h2{
+	padding-top:300px;
+}
+.a2 a{
+	font-size: 17px;
+	color: #fff;
+}
+.a2 a img{
+	width: 13px;
+	height: 13px;
+}
+
+
+.a3 h1{
+	color: black;
+	font-size: 40px;
+}
+.a3 p{
+	color: black;
+}
+
+ .a3 a{
+	color: #0070C9;
+	font-size: 15px;
+}
+.a3{
+	background-image:url(../img/ipad_pro.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border-bottom: 12px solid #fff;
+	border-top: 5px solid #fff;
+	border-right: 6px solid #fff;
+	border-left: 12px solid #fff;
+	
+	
+}
+.a4 h1{
+	font-size: 40px;
+	color: black;
+}
+.a4 p{
+	color: black;
+}
+ .a4 a{
+	color: #0070C9;
+	font-size: 15px;
+}
+.a4{
+	background-image:url(../img/macbook.jpg);	
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border-bottom: 12px solid #fff;
+	border-top: 5px solid #fff;
+	border-right: 12px solid #fff;
+	border-left: 6px solid #fff;
+
+}
+.a5 h1{
+	font-size: 40px;
+	color: black;
+}
+.a5 p{
+	color: black;
+}
+ .a5 a{
+	color: #0070C9;
+	font-size: 15px;
+}
+.a5{
+	background-image:url(../img/airpods.jpg);	
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	border-bottom: 12px solid #fff;
+	border-top: 5px solid #fff;
+	border-right: 12px solid #fff;
+	border-left: 6px solid #fff;
+
+}
+.a6{
+	background-image:url(../img/100_thing.jpg);	
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border-bottom: 12px solid #fff;
+	border-top: 5px solid #fff;
+	border-right: 12px solid #fff;
+	border-left: 6px solid #fff;
+	
+}
+.a6 p{
+	
+	padding-top: 400px;
+	font-size: 32px;
+	font-weight: 600;
+	
+}
+.a6 a{
+	color: #6bf;
+	font-size: 15px;
+	font-weight: 400;
+	
+}
+.footer{
+	
+	background-color: #fafafa;
+	margin-top:10px ;
+	font-family: "SF Pro SC","HanHei SC","SF Pro Text","Myriad Set Pro","SF Pro Icons","Apple Legacy Chevron","PingFang SC","Helvetica Neue","Helvetica","Arial",sans-serif;  
+    color: #888;
+    font-size: 10px;
+	
+}
+.ftop{
+	
+	line-height: 20px;
+    width: 980px;
+    margin: 10px auto;
+    padding-top: 10px;
+    border-bottom: 1px solid #d6d6d6;
+     
+}
+.ftop p{
+	margin: 10px 0;
+}
+.fbody{
+	
+	width: 980px;
+	margin: 10px auto;
+	border-bottom: 1px solid #d6d6d6;
+	
+	
+}
+.fbody .link{
+	width: 20%;
+	float: left;
+}
+.fbody .link a{
+	text-decoration: none;
+	margin:0 0 10px;
+	line-height: 25px;
+	color: #888;
+	
+}
+.link h5{
+	padding: 10px 0;
+	
+}
+.fbody .item{
+	width: 100%;
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+.item a{
+	text-decoration: none;
+	color: #0070c9;
+	
+}
+.fend{
+	width: 980px;
+	margin: 0 auto;
+	
+}
+.fendcontent{
+	line-height: 20px;
+	
+}
+.fendcontent a{
+	text-decoration: none;
+	color: #888;
+	margin: 0 10px;
+}
+
+
+
+
+
+	
+
+
